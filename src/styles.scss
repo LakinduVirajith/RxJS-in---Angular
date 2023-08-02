@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Roboto;
+    color: #202020;
+}
+
+.border{
+    border: solid 4px #202020;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.header-text{
+    text-align: center;
+    margin-top: 12px;
+}
+
+.nav-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
